@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EdittextCircle">
+        <attr name="text_label" format="string"/>
+        <attr name="circle_color" format="reference"/>
+    </declare-styleable>
+</resources>
