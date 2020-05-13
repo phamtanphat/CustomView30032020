@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <TextView
+        android:id="@+id/textviewLabel"
         style="@style/AppStyle.TextViewLabel"
         android:ellipsize="end"
         android:maxLines="1"
         android:maxWidth="150dp"
-        android:text="Moduel name sadjsaldkjsadljsaldksajdlksajdlskajdsalkdjlks;adksa;ldksad" />
+        android:drawablePadding="10dp"
+        android:drawableEnd="@drawable/bg_circle_view"
+        tools:text="Moduel name sadjsaldkjsadljsaldksajdlksajdlskajdsalkdjlks;adksa;ldksad" />
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_below="@id/textviewLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 </RelativeLayout>
